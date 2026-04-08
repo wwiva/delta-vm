@@ -53,7 +53,7 @@ All operands must be `int` or `bool`. Destination must be `int` or `bool`.
 Source operands must match each other. Destination must be `int` or `bool`.
 
 **Casts:**
-Each cast instruction requires a specific source type and produces a specific destination type (see [Instructions.md](Instructions.md)).
+Each cast instruction requires a specific source type and produces a specific destination type (see [Instructions.md](#Instructions.md)).
 
 **Calls:**
 Argument count and types are matched against the `.func` or `.extern` declaration. Return type of the callee must match the destination register's type. `bool` and `int` are considered matching. For variadic externs, at least the fixed parameters must match; extra arguments are unchecked.
